@@ -1,0 +1,26 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Matthews Blog</title>
+	<link href="https://smilegodly.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://smilegodly.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://smilegodly.github.io/blog</id>
+	<author>
+		<name>Matthew</name>
+	</author>
+
+	{% for blogPost in site.posts %}
+		<entry>
+			<title>{{ blogPost.title }}</title>
+			<link href="http://smilegodly.github.io{{ blogPost.url }}"/>
+			<updated>{{ blogPost.date | date_to_xmlschema }}</updated>
+			<id>http://smilegodly.github.io{{ blogPost.id }}</id>
+			<content type="html">{{ blogPost.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
