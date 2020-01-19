@@ -1,0 +1,13 @@
+---
+layout: default
+title: Matthews Blog
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="posts">
+
+    {% for blogPost in site.posts %}
+    <li><span>{{ blogPost.date | date_to_string }}</span> » <a href="{{ blogPost.url }}" title="{{ blogPost.title }}">{{ blogPost.title }}</a></li>
+    {% endfor %}
+</ul>
