@@ -8,7 +8,7 @@ layout: feed
 	<link href="https://smilegodly.github.io/blog/atom.xml" rel="self"/>
 	<link href="https://smilegodly.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://smilegodly.github.io/blog</id>
+	<id>https://smilegodly.github.io/blog</id>
 	<author>
 		<name>Matthew</name>
 	</author>
@@ -16,9 +16,9 @@ layout: feed
 	{% for blogPost in site.posts %}
 		<entry>
 			<title>{{ blogPost.title }}</title>
-			<link href="http://smilegodly.github.io{{ blogPost.url }}"/>
+			<link href="https://smilegodly.github.io{{ blogPost.url }}"/>
 			<updated>{{ blogPost.date | date_to_xmlschema }}</updated>
-			<id>http://smilegodly.github.io{{ blogPost.id }}</id>
+			<id>https://smilegodly.github.io{{ blogPost.id }}</id>
 			<content type="html">{{ blogPost.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
