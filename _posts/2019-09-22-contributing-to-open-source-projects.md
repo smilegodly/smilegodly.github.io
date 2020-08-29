@@ -5,9 +5,9 @@ date: 2019-09-22
 ---
 I have filed 2 issues and submitted 2 separate pull requests for each issue this week on other students open source web applications.
 
-The first issue I filed was #10 on Grommers00’s application. https://github.com/Grommers00/my-note/issues/10
-After talking about the issue with Grommers00 about the problem of having a restore point as well as auto-saves, I thought of a solution which included a visual countdown timer on the page so that the user can see when the restore point would be getting overwritten. I implemented that solution as #11 , and it was merged by Grommers00 on the master branch shortly after.
-https://github.com/Grommers00/my-note/pull/11
+The first issue I filed was #10 on Grommers00’s application. [https://github.com/Grommers00/my-note/issues/10](https://github.com/Grommers00/my-note/issues/10)
+After talking about the issue with Grommers00 about the problem of having a restore point as well as auto-saves, I thought of a solution which included a visual countdown timer on the page so that the user can see when the restore point would be getting overwritten. 
+I implemented that solution as #11 , and it was merged by Grommers00 on the master branch shortly after. [https://github.com/Grommers00/my-note/pull/11](https://github.com/Grommers00/my-note/pull/11)
 The code for the timer on the web page is as follows:
 
 
@@ -31,8 +31,9 @@ window.onload = function () {
 
 
 
-The second issue I filed was #8 on jrdnlx’s application. https://github.com/jrdnlx/noteboard/issues/8
-I noticed that the application was not saving any data that the user was inputting. I fixed the save issue in the pull request #9. https://github.com/jrdnlx/noteboard/pull/9
+The second issue I filed was #8 on jrdnlx’s application. [https://github.com/jrdnlx/noteboard/issues/8](https://github.com/jrdnlx/noteboard/issues/8)
+I noticed that the application was not saving any data that the user was inputting. 
+I fixed the save issue in the pull request #9. [https://github.com/jrdnlx/noteboard/pull/9](https://github.com/jrdnlx/noteboard/pull/9)
 The code for the bug fix is as follows:
 
 {% highlight js %}
