@@ -70,3 +70,11 @@ code {
 	line-height: 1.4em;
 }
 
+div.postUL ul li {
+	margin: auto;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #333;
+	padding: 0px 25px 5px 0px;
+}
+
