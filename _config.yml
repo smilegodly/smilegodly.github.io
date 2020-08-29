@@ -1,3 +1,10 @@
 name: Matthews Blog
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

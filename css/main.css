@@ -46,6 +46,7 @@ ul.posts {
 
 ul.posts li {
 	list-style: none;
+	padding: 6px;
 }
 
 .container {
@@ -55,7 +56,17 @@ ul.posts li {
 	background: rgba(255,255,255,0.7);
 }
 
-.defaultStyle{
+.defaultStyle {
 	text-decoration: none;
 	color: white;
 }
+
+img {
+	max-width: 100%;
+}
+
+code {
+	font-size: 1.5em;
+	line-height: 1.4em;
+}
+
