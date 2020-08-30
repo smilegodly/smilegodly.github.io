@@ -210,4 +210,6 @@
   padding: 1px 10px 1px 10px;
   width: max-content;
   margin: auto;
+  max-width:95%;
+  height:auto;
 }
