@@ -69,7 +69,12 @@ In telescope I also got rid of some of the annoying console.log spams that would
 External
 Vscode Pull Request
 
+<div class="post-li-format" markdown="1">
+
 - [https://github.com/microsoft/vscode/pull/86494](https://github.com/microsoft/vscode/pull/86494)
+
+
+
 
 Internal
 Telescope Pull Requests
@@ -77,3 +82,5 @@ Telescope Pull Requests
 - [https://github.com/Seneca-CDOT/telescope/pull/331](https://github.com/Seneca-CDOT/telescope/pull/331)
 - [https://github.com/Seneca-CDOT/telescope/pull/337](https://github.com/Seneca-CDOT/telescope/pull/337)
 - [https://github.com/Seneca-CDOT/telescope/pull/336](https://github.com/Seneca-CDOT/telescope/pull/336)
+
+</div>

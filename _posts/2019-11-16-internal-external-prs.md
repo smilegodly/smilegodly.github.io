@@ -21,6 +21,10 @@ Originally I had written this function in python, but I was asked to re-do it in
 
 PR’s :
 
+<div class="post-li-format" markdown="1">
+
 1. [https://github.com/microsoft/vscode/pull/84946](https://github.com/microsoft/vscode/pull/84946)
 2. [https://github.com/Seneca-CDOT/telescope/pull/28](https://github.com/Seneca-CDOT/telescope/pull/28)
 3. [https://github.com/Seneca-CDOT/telescope/pull/102](https://github.com/Seneca-CDOT/telescope/pull/102)
+
+</div>

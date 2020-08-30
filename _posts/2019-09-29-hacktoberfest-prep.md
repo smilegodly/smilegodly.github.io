@@ -11,7 +11,7 @@ Here is a front end web page example of some of the data you can get from the Ri
 
 ![RAM frontend example](https://awesomeresponsibility.files.wordpress.com/2019/09/image-3.png?w=886)
 
-<div class="postUL" markdown="1">
+<div class="post-li-format" markdown="1">
 
 - I have made changes to ramapi’s readme. (Typos)
 - I want to make a front end web page to display character & location data from the API

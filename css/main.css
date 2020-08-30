@@ -71,7 +71,7 @@ code {
 	line-height: 1.4em;
 }
 
-div.postUL ul li {
+.post-li-format ul li, ol li {
 	margin: auto;
 	font-size: 1.5em;
 	line-height: 1.4em;
