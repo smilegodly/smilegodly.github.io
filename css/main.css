@@ -83,3 +83,17 @@ pre {
 	white-space: pre-wrap;
 	word-break: break-word;
 }
+
+.gif {
+    width: -moz-available;
+    margin: auto;
+    padding: 3px;
+}
+
+iframe {
+	height: 510px;
+	display: block;
+	width: 85%;
+	padding-left: 50px;
+}
+
