@@ -65,7 +65,7 @@ test('Encoded string with arrow function should be decoded', () => {
 <!-- Before and after picture of the fix -->
 After a few days of testing and trial & error and also excessive coffee consumption, I was *finally* succesful in my journey to fixing the code blocks on Telescope! I pushed the fix and made a [Pull Request](https://github.com/Seneca-CDOT/telescope/pull/1157) to get the changes reviewed and *hopefully* pushed to upstream so that I finally could read the code on Telescope and copy & paste it as it was meant to be :) 
 
-Here is a before and after photo of the fix in action! Notice the encoded HTML entities within the code ```&lt;``` , ``&gt;```, ```&amp;```.
+Here is a before and after photo of the fix in action! Notice the encoded HTML entities within the code ```&lt;``` , ```&gt;``` , ```&amp;``` 
 
 ![](https://user-images.githubusercontent.com/35276477/95153209-e973d400-075c-11eb-804a-8d7d9d666282.PNG "Before")
 
