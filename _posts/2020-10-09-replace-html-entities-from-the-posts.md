@@ -69,6 +69,6 @@ Here is a before and after photo of the fix in action! Notice the encoded HTML e
 
 ![](https://user-images.githubusercontent.com/35276477/95153209-e973d400-075c-11eb-804a-8d7d9d666282.PNG "Before")
 
-After the fix.
+After the fix!
 
 ![](https://user-images.githubusercontent.com/35276477/95153231-fb557700-075c-11eb-9db0-c5a82dfbb6cc.PNG "After")
